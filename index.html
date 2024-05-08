@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <img src="img/logo.jpg" class="logo" alt="">
+        <div class="search-box">
+            <input type="text" class="search-bar" placeholder="Tìm kiếm">
+            <button class="search-btn"><img src="img/search.PNG" alt=""></button>
+        </div>
+        <div class="user-options">
+            <img src="img/video.PNG" class="icon" alt="">
+            <img src="img/grid.PNG" class="icon" alt="">
+            <img src="img/bell.PNG" class="icon" alt="">
+            <div class="user-dp">
+                <img src="img/pfp.jpeg" alt="">
+            </div>
+        </div>
+    </nav>
+
+    <!-- sidebar -->
+    <div class="side-bar">
+        <a href="#" class="links active"><img src="img/home.PNG" alt="">Trang chủ</a>
+        <a href="trending.html" class="links"><img src="img/explore.PNG" alt="">Thịnh Hành</a>
+        <a href="#" class="links"><img src="img/subscription.PNG" alt="">Kênh đăng ký</a>
+        <hr class="seperator">
+        <a href="#" class="links"><img src="img/library.PNG" alt="">Thư viện</a>
+        <a href="#" class="links"><img src="img/history.PNG" alt="">Lịch sử xem</a>
+        <a href="#" class="links"><img src="img/your-video.PNG" alt="">Video của bạn</a>
+        <a href="#" class="links"><img src="img/watch-later.PNG" alt="">Xem sau</a>
+        <a href="#" class="links"><img src="img/liked video.PNG" alt="">Video đã thích</a>
+        <a href="#" class="links"><img src="img/show more.PNG" alt="">Xem thêm</a>
+    </div>
+
+    <!-- filters -->
+    <div class="filters">
+        <button class="filter-options active">Tất cả</button>
+        <button class="filter-options">Âm nhạc</button>
+        <button class="filter-options">trò chơi</button>
+        <button class="filter-options">Tin tức</button>
+        <button class="filter-options">Trực tiếp</button>
+        <button class="filter-options">Đọc rap</button>
+        <button class="filter-options">Trò chơi hành động phiêu lưu</button>
+        <button class="filter-options">Du lịch</button>
+        <button class="filter-options">Hoạt hình</button>
+        <button class="filter-options">Bóng đá</button>
+    </div>
+
+     <!-- videos -->
+     <div class="video-container1">
+        <div class="video">
+            <img src="img/thumbnail.jpg" class="thumbnail" alt="">
+            <div class="content">
+                <img src="img/pfp.jpeg" class="channel-icon" alt="">
+                <div class="info">
+                    <h4 class="title">hướng dẫn chơi với chó và cái kết</h4>
+                    <p class="channel-name">linh</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
